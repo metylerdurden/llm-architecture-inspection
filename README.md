@@ -18,3 +18,8 @@ Model downloaded via Hugging Face `transformers`, then inspected using `AutoConf
 See [MODEL_COMPARISON.md](./MODEL_COMPARISON.md) for a comparison of
 SmolLM2-135M vs Qwen2.5-0.5B -- architecture differences and how
 attention patterns differ across model depth.
+
+## Fine-tuning experiment
+See [TRAINING_EXPERIMENT.md](./TRAINING_EXPERIMENT.md) for a
+fine-tuning run on SmolLM2-135M, including the loss curve and an
+honest look at what fine-tuning did (and didn't) teach the model.
