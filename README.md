@@ -13,3 +13,8 @@ See [inspection_report.md](./inspection_report.md) for the full breakdown.
 
 ## How it was done
 Model downloaded via Hugging Face `transformers`, then inspected using `AutoConfig` and `AutoModelForCausalLM` in Python.
+
+## Cross-model comparison
+See [MODEL_COMPARISON.md](./MODEL_COMPARISON.md) for a comparison of
+SmolLM2-135M vs Qwen2.5-0.5B -- architecture differences and how
+attention patterns differ across model depth.
